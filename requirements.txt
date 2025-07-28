@@ -23,6 +23,12 @@ seaborn>=0.12.0
 datasets>=2.12.0
 accelerate>=0.20.0
 evaluate>=0.4.0
+huggingface-hub>=0.16.0
+tokenizers>=0.13.0
+safetensors>=0.3.1
+sentencepiece>=0.1.99
+diffusers>=0.18.0
+timm>=0.9.0
 
 # Jupyter Environment
 jupyter>=1.0.0

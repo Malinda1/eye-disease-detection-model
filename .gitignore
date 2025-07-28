@@ -21,3 +21,6 @@ Thumbs.db
 
 #Raw data files
 data/raw_data
+
+#preprocessed data files
+data/preprocess_data

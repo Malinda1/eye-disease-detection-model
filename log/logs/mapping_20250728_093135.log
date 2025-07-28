@@ -1,0 +1,21 @@
+2025-07-28 09:31:35,208 - INFO - Loaded dataset with 6392 records
+2025-07-28 09:31:35,225 - INFO - Analyzing dataset...
+2025-07-28 09:31:35,700 - INFO - Dataset Analysis Complete:
+2025-07-28 09:31:35,700 - INFO -   - Total Patients: 6392
+2025-07-28 09:31:35,701 - INFO -   - Multi-disease Patients: 1001
+2025-07-28 09:31:35,701 - INFO -   - Missing Images: 0
+2025-07-28 09:31:35,702 - INFO - Creating single-label classification folders...
+2025-07-28 09:32:33,965 - INFO - Mapping log saved to /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/single_label_classification/mapping_log.json
+2025-07-28 09:32:33,967 - INFO - Single-label mapping complete. Processed 12784 images.
+2025-07-28 09:32:33,968 - INFO - Creating multi-label classification folders...
+2025-07-28 09:33:37,974 - INFO - Mapping log saved to /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/multi_label_classification/mapping_log.json
+2025-07-28 09:33:37,977 - INFO - Multi-label mapping complete. Processed 14878 image copies.
+2025-07-28 09:33:37,981 - INFO - Creating patient-level mapping...
+2025-07-28 09:34:48,008 - INFO - Mapping log saved to /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/patient_level_mapping/patient_mapping_log.json
+2025-07-28 09:34:48,010 - INFO - Patient-level mapping complete.
+2025-07-28 09:34:48,012 - INFO - Creating train/validation/test splits...
+2025-07-28 09:35:43,643 - INFO - Train/val/test split complete:
+2025-07-28 09:35:43,645 - INFO -   train: 2350 patients, 8932 images
+2025-07-28 09:35:43,645 - INFO -   validation: 503 patients, 1940 images
+2025-07-28 09:35:43,646 - INFO -   test: 505 patients, 1912 images
+2025-07-28 09:35:43,651 - INFO - Summary report saved to /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/mapping_summary_report.txt
