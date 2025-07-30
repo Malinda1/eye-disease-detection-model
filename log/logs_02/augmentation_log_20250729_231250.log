@@ -1,0 +1,45 @@
+2025-07-29 23:12:50,052 - INFO - Medical Image Augmentation System Initialized
+2025-07-29 23:16:12,433 - INFO - Medical Image Augmentation System Initialized
+2025-07-29 23:16:12,583 - INFO - Directory structure created at: /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/augmented_balanced_data
+2025-07-29 23:16:12,663 - INFO - Analyzing dataset distribution...
+2025-07-29 23:16:12,769 - INFO - Dataset Distribution:
+2025-07-29 23:16:12,769 - INFO - Normal: 2160 total (1080 left, 1080 right)
+2025-07-29 23:16:12,769 - INFO - Diabetes: 2210 total (1105 left, 1105 right)
+2025-07-29 23:16:12,769 - INFO - Glaucoma: 412 total (206 left, 206 right)
+2025-07-29 23:16:12,770 - INFO - Cataract: 416 total (208 left, 208 right)
+2025-07-29 23:16:12,770 - INFO - Age_related_Macular_Degeneration: 326 total (163 left, 163 right)
+2025-07-29 23:16:12,770 - INFO - Hypertension: 206 total (103 left, 103 right)
+2025-07-29 23:16:12,771 - INFO - Pathological_Myopia: 342 total (171 left, 171 right)
+2025-07-29 23:16:12,771 - INFO - Other_diseases: 1810 total (905 left, 905 right)
+2025-07-29 23:16:12,772 - INFO - Copying original images...
+2025-07-29 23:16:32,736 - INFO - Starting augmentation process...
+2025-07-29 23:16:32,737 - INFO - Normal: Already has 2160 samples (target: 2000)
+2025-07-29 23:16:32,737 - INFO - Diabetes: Already has 2210 samples (target: 2000)
+2025-07-29 23:16:32,737 - INFO - Glaucoma: Generating 1588 additional samples
+2025-07-29 23:16:36,867 - INFO - Cataract: Generating 1584 additional samples
+2025-07-29 23:16:40,790 - INFO - Age_related_Macular_Degeneration: Generating 1674 additional samples
+2025-07-29 23:16:44,761 - INFO - Hypertension: Generating 1794 additional samples
+2025-07-29 23:16:49,300 - INFO - Pathological_Myopia: Generating 1658 additional samples
+2025-07-29 23:16:53,217 - INFO - Other_diseases: Generating 190 additional samples
+2025-07-29 23:16:53,821 - INFO - Creating sample visualizations...
+2025-07-29 23:16:55,122 - INFO - Sample visualization saved to: /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/augmentation_samples.png
+2025-07-29 23:16:55,425 - INFO - 
+============================================================
+2025-07-29 23:16:55,425 - INFO - AUGMENTATION COMPLETE - SUMMARY
+2025-07-29 23:16:55,425 - INFO - ============================================================
+2025-07-29 23:16:55,425 - INFO - Total images generated: 8488
+2025-07-29 23:16:55,426 - INFO - Target samples per class: 2000
+2025-07-29 23:16:55,426 - INFO - 
+Final Distribution:
+2025-07-29 23:16:55,426 - INFO - Normal: 4320 total (+2160 generated)
+2025-07-29 23:16:55,426 - INFO - Diabetes: 4420 total (+2210 generated)
+2025-07-29 23:16:55,427 - INFO - Glaucoma: 4000 total (+3588 generated)
+2025-07-29 23:16:55,427 - INFO - Cataract: 4000 total (+3584 generated)
+2025-07-29 23:16:55,427 - INFO - Age_related_Macular_Degeneration: 4000 total (+3674 generated)
+2025-07-29 23:16:55,428 - INFO - Hypertension: 4000 total (+3794 generated)
+2025-07-29 23:16:55,428 - INFO - Pathological_Myopia: 4000 total (+3658 generated)
+2025-07-29 23:16:55,428 - INFO - Other_diseases: 4000 total (+2190 generated)
+2025-07-29 23:16:55,428 - INFO - 
+Report saved to: /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/augmentation_report.json
+2025-07-29 23:16:55,429 - INFO - Augmented data saved to: /Volumes/KODAK/folder_02/eye_disease_prediction_model/data/preprocess_data/augmented_balanced_data
+2025-07-29 23:16:55,429 - INFO - Processing completed in 42.77 seconds
