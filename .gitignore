@@ -24,3 +24,8 @@ data/raw_data
 
 #preprocessed data files
 data/preprocess_data
+
+#model files
+model/raw_model
+model/process_model
+model/fine_tune_model
