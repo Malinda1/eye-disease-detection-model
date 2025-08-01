@@ -1,0 +1,311 @@
+2025-08-01 15:08:31,106 - INFO - Using device: cpu
+2025-08-01 15:08:31,106 - INFO - Starting industrial-level fine-tuning pipeline...
+2025-08-01 15:08:31,106 - INFO - Starting fine-tuning process...
+2025-08-01 15:08:31,107 - INFO - Loading model from /Volumes/KODAK/folder_02/eye_disease_prediction_model/model/process_model/beit-adjusted
+2025-08-01 15:08:31,222 - INFO - Model and processor loaded successfully
+2025-08-01 15:08:31,399 - INFO - Loaded 11458 samples for split: train
+2025-08-01 15:08:31,424 - INFO - Loaded 2454 samples for split: val
+2025-08-01 15:08:31,450 - INFO - Loaded 2458 samples for split: test
+2025-08-01 15:08:31,451 - INFO - Created data loaders - Train: 11458, Val: 2454, Test: 2458
+2025-08-01 15:08:31,452 - INFO - Backbone frozen - only classifier will be trained
+2025-08-01 15:08:31,453 - INFO - Training components setup complete
+2025-08-01 15:13:20,322 - INFO - Using device: cpu
+2025-08-01 15:13:20,323 - INFO - Starting industrial-level fine-tuning pipeline...
+2025-08-01 15:13:20,324 - INFO - Starting fine-tuning process...
+2025-08-01 15:13:20,324 - INFO - Loading model from /Volumes/KODAK/folder_02/eye_disease_prediction_model/model/process_model/beit-adjusted
+2025-08-01 15:13:20,680 - INFO - Model and processor loaded successfully
+2025-08-01 15:13:21,523 - INFO - Loaded 11458 samples for split: train
+2025-08-01 15:13:21,568 - INFO - Loaded 2454 samples for split: val
+2025-08-01 15:13:21,605 - INFO - Loaded 2458 samples for split: test
+2025-08-01 15:13:21,605 - INFO - Created data loaders - Train: 11458, Val: 2454, Test: 2458
+2025-08-01 15:13:21,606 - INFO - Backbone frozen - only classifier will be trained
+2025-08-01 15:13:21,609 - INFO - Training components setup complete
+2025-08-01 15:14:27,190 - INFO - Using device: cpu
+2025-08-01 15:14:27,192 - INFO - Starting industrial-level fine-tuning pipeline...
+2025-08-01 15:14:27,193 - INFO - Starting fine-tuning process...
+2025-08-01 15:14:27,193 - INFO - Loading model from /Volumes/KODAK/folder_02/eye_disease_prediction_model/model/process_model/beit-adjusted
+2025-08-01 15:14:27,285 - INFO - Model and processor loaded successfully
+2025-08-01 15:14:27,421 - INFO - Loaded 11458 samples for split: train
+2025-08-01 15:14:27,747 - INFO - Loaded 2454 samples for split: val
+2025-08-01 15:14:27,781 - INFO - Loaded 2458 samples for split: test
+2025-08-01 15:14:27,786 - INFO - Created data loaders - Train: 11458, Val: 2454, Test: 2458
+2025-08-01 15:14:27,808 - INFO - Backbone frozen - only classifier will be trained
+2025-08-01 15:14:27,809 - INFO - Training components setup complete
+2025-08-01 15:26:01,039 - INFO - Epoch 1/50 - Train Loss: 2.2045, Train Acc: 11.50%, Val Loss: 2.1513, Val Acc: 11.74%, LR: 4.00e-07, Time: 693.23s
+2025-08-01 15:26:01,041 - INFO -   Age_related_Macular_Degeneration: 0.000
+2025-08-01 15:26:01,041 - INFO -   Cataract: 0.097
+2025-08-01 15:26:01,042 - INFO -   Diabetes: 0.000
+2025-08-01 15:26:01,042 - INFO -   Glaucoma: 0.247
+2025-08-01 15:26:01,043 - INFO -   Hypertension: 0.043
+2025-08-01 15:26:01,043 - INFO -   Normal: 0.225
+2025-08-01 15:26:01,044 - INFO -   Other_diseases: 0.217
+2025-08-01 15:26:01,044 - INFO -   Pathological_Myopia: 0.113
+2025-08-01 15:26:02,405 - INFO - New best model saved with validation accuracy: 11.74%
+2025-08-01 15:37:29,908 - INFO - Epoch 2/50 - Train Loss: 2.0805, Train Acc: 16.13%, Val Loss: 2.0131, Val Acc: 20.54%, LR: 8.00e-07, Time: 687.24s
+2025-08-01 15:37:29,910 - INFO -   Age_related_Macular_Degeneration: 0.013
+2025-08-01 15:37:29,911 - INFO -   Cataract: 0.407
+2025-08-01 15:37:29,911 - INFO -   Diabetes: 0.155
+2025-08-01 15:37:29,911 - INFO -   Glaucoma: 0.147
+2025-08-01 15:37:29,912 - INFO -   Hypertension: 0.087
+2025-08-01 15:37:29,912 - INFO -   Normal: 0.429
+2025-08-01 15:37:29,912 - INFO -   Other_diseases: 0.100
+2025-08-01 15:37:29,913 - INFO -   Pathological_Myopia: 0.293
+2025-08-01 15:37:31,311 - INFO - New best model saved with validation accuracy: 20.54%
+2025-08-01 15:49:02,772 - INFO - Epoch 3/50 - Train Loss: 1.9629, Train Acc: 26.01%, Val Loss: 1.9001, Val Acc: 30.68%, LR: 1.20e-06, Time: 691.46s
+2025-08-01 15:49:02,773 - INFO -   Age_related_Macular_Degeneration: 0.097
+2025-08-01 15:49:02,774 - INFO -   Cataract: 0.633
+2025-08-01 15:49:02,775 - INFO -   Diabetes: 0.442
+2025-08-01 15:49:02,775 - INFO -   Glaucoma: 0.140
+2025-08-01 15:49:02,776 - INFO -   Hypertension: 0.117
+2025-08-01 15:49:02,776 - INFO -   Normal: 0.380
+2025-08-01 15:49:02,776 - INFO -   Other_diseases: 0.050
+2025-08-01 15:49:02,777 - INFO -   Pathological_Myopia: 0.577
+2025-08-01 15:49:04,208 - INFO - New best model saved with validation accuracy: 30.68%
+2025-08-01 16:00:32,303 - INFO - Epoch 4/50 - Train Loss: 1.8589, Train Acc: 33.80%, Val Loss: 1.7996, Val Acc: 36.10%, LR: 1.60e-06, Time: 688.09s
+2025-08-01 16:00:32,307 - INFO -   Age_related_Macular_Degeneration: 0.130
+2025-08-01 16:00:32,307 - INFO -   Cataract: 0.703
+2025-08-01 16:00:32,307 - INFO -   Diabetes: 0.473
+2025-08-01 16:00:32,308 - INFO -   Glaucoma: 0.230
+2025-08-01 16:00:32,309 - INFO -   Hypertension: 0.150
+2025-08-01 16:00:32,309 - INFO -   Normal: 0.417
+2025-08-01 16:00:32,309 - INFO -   Other_diseases: 0.057
+2025-08-01 16:00:32,310 - INFO -   Pathological_Myopia: 0.713
+2025-08-01 16:00:33,787 - INFO - New best model saved with validation accuracy: 36.10%
+2025-08-01 16:12:00,564 - INFO - Epoch 5/50 - Train Loss: 1.7717, Train Acc: 38.53%, Val Loss: 1.7226, Val Acc: 40.75%, LR: 2.00e-06, Time: 686.77s
+2025-08-01 16:12:00,565 - INFO -   Age_related_Macular_Degeneration: 0.170
+2025-08-01 16:12:00,566 - INFO -   Cataract: 0.720
+2025-08-01 16:12:00,567 - INFO -   Diabetes: 0.470
+2025-08-01 16:12:00,568 - INFO -   Glaucoma: 0.320
+2025-08-01 16:12:00,568 - INFO -   Hypertension: 0.307
+2025-08-01 16:12:00,568 - INFO -   Normal: 0.457
+2025-08-01 16:12:00,569 - INFO -   Other_diseases: 0.050
+2025-08-01 16:12:00,570 - INFO -   Pathological_Myopia: 0.757
+2025-08-01 16:12:01,958 - INFO - New best model saved with validation accuracy: 40.75%
+2025-08-01 16:23:29,585 - INFO - Epoch 6/50 - Train Loss: 1.7065, Train Acc: 42.08%, Val Loss: 1.6713, Val Acc: 43.40%, LR: 2.00e-06, Time: 687.62s
+2025-08-01 16:23:29,587 - INFO -   Age_related_Macular_Degeneration: 0.243
+2025-08-01 16:23:29,587 - INFO -   Cataract: 0.733
+2025-08-01 16:23:29,588 - INFO -   Diabetes: 0.545
+2025-08-01 16:23:29,588 - INFO -   Glaucoma: 0.403
+2025-08-01 16:23:29,589 - INFO -   Hypertension: 0.283
+2025-08-01 16:23:29,590 - INFO -   Normal: 0.444
+2025-08-01 16:23:29,590 - INFO -   Other_diseases: 0.040
+2025-08-01 16:23:29,591 - INFO -   Pathological_Myopia: 0.767
+2025-08-01 16:23:30,874 - INFO - New best model saved with validation accuracy: 43.40%
+2025-08-01 16:35:06,115 - INFO - Epoch 7/50 - Train Loss: 1.6608, Train Acc: 44.70%, Val Loss: 1.6368, Val Acc: 45.44%, LR: 1.99e-06, Time: 695.04s
+2025-08-01 16:35:06,116 - INFO -   Age_related_Macular_Degeneration: 0.253
+2025-08-01 16:35:06,117 - INFO -   Cataract: 0.740
+2025-08-01 16:35:06,118 - INFO -   Diabetes: 0.579
+2025-08-01 16:35:06,118 - INFO -   Glaucoma: 0.447
+2025-08-01 16:35:06,119 - INFO -   Hypertension: 0.413
+2025-08-01 16:35:06,119 - INFO -   Normal: 0.367
+2025-08-01 16:35:06,120 - INFO -   Other_diseases: 0.057
+2025-08-01 16:35:06,120 - INFO -   Pathological_Myopia: 0.773
+2025-08-01 16:35:07,216 - INFO - New best model saved with validation accuracy: 45.44%
+2025-08-01 16:46:36,413 - INFO - Epoch 8/50 - Train Loss: 1.6294, Train Acc: 46.24%, Val Loss: 1.6112, Val Acc: 46.33%, LR: 1.98e-06, Time: 689.20s
+2025-08-01 16:46:36,415 - INFO -   Age_related_Macular_Degeneration: 0.277
+2025-08-01 16:46:36,416 - INFO -   Cataract: 0.740
+2025-08-01 16:46:36,416 - INFO -   Diabetes: 0.442
+2025-08-01 16:46:36,417 - INFO -   Glaucoma: 0.403
+2025-08-01 16:46:36,417 - INFO -   Hypertension: 0.453
+2025-08-01 16:46:36,419 - INFO -   Normal: 0.549
+2025-08-01 16:46:36,419 - INFO -   Other_diseases: 0.060
+2025-08-01 16:46:36,420 - INFO -   Pathological_Myopia: 0.777
+2025-08-01 16:46:37,500 - INFO - New best model saved with validation accuracy: 46.33%
+2025-08-01 16:58:08,548 - INFO - Epoch 9/50 - Train Loss: 1.6068, Train Acc: 47.50%, Val Loss: 1.5917, Val Acc: 47.39%, LR: 1.96e-06, Time: 691.03s
+2025-08-01 16:58:08,550 - INFO -   Age_related_Macular_Degeneration: 0.280
+2025-08-01 16:58:08,551 - INFO -   Cataract: 0.740
+2025-08-01 16:58:08,552 - INFO -   Diabetes: 0.479
+2025-08-01 16:58:08,552 - INFO -   Glaucoma: 0.457
+2025-08-01 16:58:08,553 - INFO -   Hypertension: 0.487
+2025-08-01 16:58:08,553 - INFO -   Normal: 0.509
+2025-08-01 16:58:08,554 - INFO -   Other_diseases: 0.057
+2025-08-01 16:58:08,555 - INFO -   Pathological_Myopia: 0.780
+2025-08-01 16:58:09,673 - INFO - New best model saved with validation accuracy: 47.39%
+2025-08-01 17:09:39,389 - INFO - Epoch 10/50 - Train Loss: 1.5884, Train Acc: 47.89%, Val Loss: 1.5769, Val Acc: 48.70%, LR: 1.94e-06, Time: 689.71s
+2025-08-01 17:09:39,391 - INFO -   Age_related_Macular_Degeneration: 0.357
+2025-08-01 17:09:39,392 - INFO -   Cataract: 0.730
+2025-08-01 17:09:39,393 - INFO -   Diabetes: 0.403
+2025-08-01 17:09:39,393 - INFO -   Glaucoma: 0.483
+2025-08-01 17:09:39,394 - INFO -   Hypertension: 0.520
+2025-08-01 17:09:39,395 - INFO -   Normal: 0.574
+2025-08-01 17:09:39,396 - INFO -   Other_diseases: 0.047
+2025-08-01 17:09:39,397 - INFO -   Pathological_Myopia: 0.783
+2025-08-01 17:09:40,511 - INFO - New best model saved with validation accuracy: 48.70%
+2025-08-01 17:09:40,514 - INFO - Backbone unfrozen - full model will be trained
+2025-08-01 17:09:40,515 - INFO - Backbone frozen - only classifier will be trained
+2025-08-01 17:09:40,517 - INFO - Training components setup complete
+2025-08-01 17:21:10,338 - INFO - Epoch 11/50 - Train Loss: 1.5793, Train Acc: 48.95%, Val Loss: 1.5748, Val Acc: 48.78%, LR: 5.00e-07, Time: 689.82s
+2025-08-01 17:21:10,340 - INFO -   Age_related_Macular_Degeneration: 0.343
+2025-08-01 17:21:10,340 - INFO -   Cataract: 0.730
+2025-08-01 17:21:10,341 - INFO -   Diabetes: 0.433
+2025-08-01 17:21:10,342 - INFO -   Glaucoma: 0.493
+2025-08-01 17:21:10,343 - INFO -   Hypertension: 0.523
+2025-08-01 17:21:10,344 - INFO -   Normal: 0.543
+2025-08-01 17:21:10,345 - INFO -   Other_diseases: 0.053
+2025-08-01 17:21:10,345 - INFO -   Pathological_Myopia: 0.783
+2025-08-01 17:21:11,439 - INFO - New best model saved with validation accuracy: 48.78%
+2025-08-01 17:32:44,072 - INFO - Epoch 12/50 - Train Loss: 1.5760, Train Acc: 48.52%, Val Loss: 1.5693, Val Acc: 48.94%, LR: 1.00e-06, Time: 692.42s
+2025-08-01 17:32:44,074 - INFO -   Age_related_Macular_Degeneration: 0.343
+2025-08-01 17:32:44,075 - INFO -   Cataract: 0.730
+2025-08-01 17:32:44,076 - INFO -   Diabetes: 0.485
+2025-08-01 17:32:44,077 - INFO -   Glaucoma: 0.490
+2025-08-01 17:32:44,077 - INFO -   Hypertension: 0.510
+2025-08-01 17:32:44,078 - INFO -   Normal: 0.509
+2025-08-01 17:32:44,079 - INFO -   Other_diseases: 0.060
+2025-08-01 17:32:44,079 - INFO -   Pathological_Myopia: 0.787
+2025-08-01 17:32:45,158 - INFO - New best model saved with validation accuracy: 48.94%
+2025-08-01 17:44:07,901 - INFO - Epoch 13/50 - Train Loss: 1.5675, Train Acc: 49.36%, Val Loss: 1.5616, Val Acc: 49.63%, LR: 1.50e-06, Time: 682.74s
+2025-08-01 17:44:07,905 - INFO -   Age_related_Macular_Degeneration: 0.383
+2025-08-01 17:44:07,907 - INFO -   Cataract: 0.737
+2025-08-01 17:44:07,908 - INFO -   Diabetes: 0.494
+2025-08-01 17:44:07,909 - INFO -   Glaucoma: 0.490
+2025-08-01 17:44:07,910 - INFO -   Hypertension: 0.517
+2025-08-01 17:44:07,911 - INFO -   Normal: 0.512
+2025-08-01 17:44:07,912 - INFO -   Other_diseases: 0.053
+2025-08-01 17:44:07,912 - INFO -   Pathological_Myopia: 0.783
+2025-08-01 17:44:08,991 - INFO - New best model saved with validation accuracy: 49.63%
+2025-08-01 17:55:40,731 - INFO - Epoch 14/50 - Train Loss: 1.5596, Train Acc: 49.62%, Val Loss: 1.5523, Val Acc: 49.55%, LR: 2.00e-06, Time: 691.74s
+2025-08-01 17:55:40,733 - INFO -   Age_related_Macular_Degeneration: 0.330
+2025-08-01 17:55:40,733 - INFO -   Cataract: 0.733
+2025-08-01 17:55:40,734 - INFO -   Diabetes: 0.494
+2025-08-01 17:55:40,735 - INFO -   Glaucoma: 0.523
+2025-08-01 17:55:40,736 - INFO -   Hypertension: 0.533
+2025-08-01 17:55:40,737 - INFO -   Normal: 0.506
+2025-08-01 17:55:40,737 - INFO -   Other_diseases: 0.057
+2025-08-01 17:55:40,738 - INFO -   Pathological_Myopia: 0.787
+2025-08-01 18:07:11,896 - INFO - Epoch 15/50 - Train Loss: 1.5492, Train Acc: 49.75%, Val Loss: 1.5425, Val Acc: 50.00%, LR: 2.00e-06, Time: 691.16s
+2025-08-01 18:07:11,897 - INFO -   Age_related_Macular_Degeneration: 0.367
+2025-08-01 18:07:11,898 - INFO -   Cataract: 0.740
+2025-08-01 18:07:11,899 - INFO -   Diabetes: 0.555
+2025-08-01 18:07:11,900 - INFO -   Glaucoma: 0.510
+2025-08-01 18:07:11,900 - INFO -   Hypertension: 0.493
+2025-08-01 18:07:11,901 - INFO -   Normal: 0.481
+2025-08-01 18:07:11,902 - INFO -   Other_diseases: 0.053
+2025-08-01 18:07:11,902 - INFO -   Pathological_Myopia: 0.797
+2025-08-01 18:07:13,003 - INFO - New best model saved with validation accuracy: 50.00%
+2025-08-01 18:18:46,635 - INFO - Epoch 16/50 - Train Loss: 1.5394, Train Acc: 50.00%, Val Loss: 1.5336, Val Acc: 50.65%, LR: 1.98e-06, Time: 693.63s
+2025-08-01 18:18:46,637 - INFO -   Age_related_Macular_Degeneration: 0.393
+2025-08-01 18:18:46,638 - INFO -   Cataract: 0.733
+2025-08-01 18:18:46,639 - INFO -   Diabetes: 0.479
+2025-08-01 18:18:46,640 - INFO -   Glaucoma: 0.520
+2025-08-01 18:18:46,640 - INFO -   Hypertension: 0.530
+2025-08-01 18:18:46,641 - INFO -   Normal: 0.537
+2025-08-01 18:18:46,642 - INFO -   Other_diseases: 0.067
+2025-08-01 18:18:46,643 - INFO -   Pathological_Myopia: 0.793
+2025-08-01 18:18:47,757 - INFO - New best model saved with validation accuracy: 50.65%
+2025-08-01 18:30:21,337 - INFO - Epoch 17/50 - Train Loss: 1.5294, Train Acc: 50.67%, Val Loss: 1.5261, Val Acc: 50.90%, LR: 1.97e-06, Time: 693.38s
+2025-08-01 18:30:21,339 - INFO -   Age_related_Macular_Degeneration: 0.393
+2025-08-01 18:30:21,340 - INFO -   Cataract: 0.730
+2025-08-01 18:30:21,341 - INFO -   Diabetes: 0.506
+2025-08-01 18:30:21,342 - INFO -   Glaucoma: 0.537
+2025-08-01 18:30:21,343 - INFO -   Hypertension: 0.533
+2025-08-01 18:30:21,344 - INFO -   Normal: 0.503
+2025-08-01 18:30:21,345 - INFO -   Other_diseases: 0.077
+2025-08-01 18:30:21,345 - INFO -   Pathological_Myopia: 0.793
+2025-08-01 18:30:22,429 - INFO - New best model saved with validation accuracy: 50.90%
+2025-08-01 18:41:53,035 - INFO - Epoch 18/50 - Train Loss: 1.5225, Train Acc: 50.90%, Val Loss: 1.5190, Val Acc: 51.43%, LR: 1.94e-06, Time: 690.60s
+2025-08-01 18:41:53,037 - INFO -   Age_related_Macular_Degeneration: 0.390
+2025-08-01 18:41:53,038 - INFO -   Cataract: 0.743
+2025-08-01 18:41:53,039 - INFO -   Diabetes: 0.491
+2025-08-01 18:41:53,040 - INFO -   Glaucoma: 0.517
+2025-08-01 18:41:53,041 - INFO -   Hypertension: 0.550
+2025-08-01 18:41:53,042 - INFO -   Normal: 0.562
+2025-08-01 18:41:53,043 - INFO -   Other_diseases: 0.063
+2025-08-01 18:41:53,044 - INFO -   Pathological_Myopia: 0.797
+2025-08-01 18:41:54,188 - INFO - New best model saved with validation accuracy: 51.43%
+2025-08-01 18:53:22,378 - INFO - Epoch 19/50 - Train Loss: 1.5178, Train Acc: 51.11%, Val Loss: 1.5135, Val Acc: 51.39%, LR: 1.91e-06, Time: 688.19s
+2025-08-01 18:53:22,381 - INFO -   Age_related_Macular_Degeneration: 0.383
+2025-08-01 18:53:22,382 - INFO -   Cataract: 0.740
+2025-08-01 18:53:22,383 - INFO -   Diabetes: 0.512
+2025-08-01 18:53:22,384 - INFO -   Glaucoma: 0.537
+2025-08-01 18:53:22,385 - INFO -   Hypertension: 0.583
+2025-08-01 18:53:22,386 - INFO -   Normal: 0.488
+2025-08-01 18:53:22,387 - INFO -   Other_diseases: 0.073
+2025-08-01 18:53:22,388 - INFO -   Pathological_Myopia: 0.797
+2025-08-01 19:05:01,148 - INFO - Epoch 20/50 - Train Loss: 1.5105, Train Acc: 51.08%, Val Loss: 1.5079, Val Acc: 51.63%, LR: 1.87e-06, Time: 698.76s
+2025-08-01 19:05:01,150 - INFO -   Age_related_Macular_Degeneration: 0.400
+2025-08-01 19:05:01,151 - INFO -   Cataract: 0.743
+2025-08-01 19:05:01,152 - INFO -   Diabetes: 0.503
+2025-08-01 19:05:01,154 - INFO -   Glaucoma: 0.533
+2025-08-01 19:05:01,155 - INFO -   Hypertension: 0.547
+2025-08-01 19:05:01,156 - INFO -   Normal: 0.543
+2025-08-01 19:05:01,157 - INFO -   Other_diseases: 0.060
+2025-08-01 19:05:01,158 - INFO -   Pathological_Myopia: 0.800
+2025-08-01 19:05:02,189 - INFO - New best model saved with validation accuracy: 51.63%
+2025-08-01 19:16:38,982 - INFO - Epoch 21/50 - Train Loss: 1.5036, Train Acc: 51.99%, Val Loss: 1.5033, Val Acc: 52.04%, LR: 1.82e-06, Time: 696.79s
+2025-08-01 19:16:38,984 - INFO -   Age_related_Macular_Degeneration: 0.437
+2025-08-01 19:16:38,985 - INFO -   Cataract: 0.743
+2025-08-01 19:16:38,986 - INFO -   Diabetes: 0.464
+2025-08-01 19:16:38,987 - INFO -   Glaucoma: 0.533
+2025-08-01 19:16:38,988 - INFO -   Hypertension: 0.587
+2025-08-01 19:16:38,989 - INFO -   Normal: 0.543
+2025-08-01 19:16:38,990 - INFO -   Other_diseases: 0.060
+2025-08-01 19:16:38,991 - INFO -   Pathological_Myopia: 0.800
+2025-08-01 19:16:40,029 - INFO - New best model saved with validation accuracy: 52.04%
+2025-08-01 19:28:28,323 - INFO - Epoch 22/50 - Train Loss: 1.4978, Train Acc: 52.27%, Val Loss: 1.4985, Val Acc: 52.49%, LR: 1.77e-06, Time: 708.08s
+2025-08-01 19:28:28,325 - INFO -   Age_related_Macular_Degeneration: 0.470
+2025-08-01 19:28:28,327 - INFO -   Cataract: 0.747
+2025-08-01 19:28:28,328 - INFO -   Diabetes: 0.512
+2025-08-01 19:28:28,329 - INFO -   Glaucoma: 0.527
+2025-08-01 19:28:28,330 - INFO -   Hypertension: 0.550
+2025-08-01 19:28:28,331 - INFO -   Normal: 0.543
+2025-08-01 19:28:28,332 - INFO -   Other_diseases: 0.057
+2025-08-01 19:28:28,333 - INFO -   Pathological_Myopia: 0.793
+2025-08-01 19:28:29,341 - INFO - New best model saved with validation accuracy: 52.49%
+2025-08-01 19:40:03,899 - INFO - Epoch 23/50 - Train Loss: 1.4934, Train Acc: 51.96%, Val Loss: 1.4951, Val Acc: 52.12%, LR: 1.71e-06, Time: 694.55s
+2025-08-01 19:40:03,901 - INFO -   Age_related_Macular_Degeneration: 0.430
+2025-08-01 19:40:03,902 - INFO -   Cataract: 0.743
+2025-08-01 19:40:03,903 - INFO -   Diabetes: 0.455
+2025-08-01 19:40:03,905 - INFO -   Glaucoma: 0.507
+2025-08-01 19:40:03,906 - INFO -   Hypertension: 0.617
+2025-08-01 19:40:03,906 - INFO -   Normal: 0.565
+2025-08-01 19:40:03,907 - INFO -   Other_diseases: 0.053
+2025-08-01 19:40:03,908 - INFO -   Pathological_Myopia: 0.803
+2025-08-01 19:51:34,246 - INFO - Epoch 24/50 - Train Loss: 1.4903, Train Acc: 52.04%, Val Loss: 1.4907, Val Acc: 52.69%, LR: 1.64e-06, Time: 690.34s
+2025-08-01 19:51:34,248 - INFO -   Age_related_Macular_Degeneration: 0.447
+2025-08-01 19:51:34,249 - INFO -   Cataract: 0.757
+2025-08-01 19:51:34,251 - INFO -   Diabetes: 0.467
+2025-08-01 19:51:34,252 - INFO -   Glaucoma: 0.530
+2025-08-01 19:51:34,253 - INFO -   Hypertension: 0.583
+2025-08-01 19:51:34,254 - INFO -   Normal: 0.556
+2025-08-01 19:51:34,255 - INFO -   Other_diseases: 0.083
+2025-08-01 19:51:34,256 - INFO -   Pathological_Myopia: 0.797
+2025-08-01 19:51:35,361 - INFO - New best model saved with validation accuracy: 52.69%
+2025-08-01 20:03:13,588 - INFO - Epoch 25/50 - Train Loss: 1.4842, Train Acc: 52.69%, Val Loss: 1.4872, Val Acc: 52.97%, LR: 1.57e-06, Time: 698.22s
+2025-08-01 20:03:13,591 - INFO -   Age_related_Macular_Degeneration: 0.460
+2025-08-01 20:03:13,592 - INFO -   Cataract: 0.747
+2025-08-01 20:03:13,594 - INFO -   Diabetes: 0.476
+2025-08-01 20:03:13,595 - INFO -   Glaucoma: 0.547
+2025-08-01 20:03:13,596 - INFO -   Hypertension: 0.577
+2025-08-01 20:03:13,597 - INFO -   Normal: 0.559
+2025-08-01 20:03:13,598 - INFO -   Other_diseases: 0.080
+2025-08-01 20:03:13,599 - INFO -   Pathological_Myopia: 0.797
+2025-08-01 20:03:14,619 - INFO - New best model saved with validation accuracy: 52.97%
+2025-08-01 20:14:58,618 - INFO - Epoch 26/50 - Train Loss: 1.4813, Train Acc: 52.29%, Val Loss: 1.4842, Val Acc: 52.85%, LR: 1.50e-06, Time: 703.99s
+2025-08-01 20:14:58,620 - INFO -   Age_related_Macular_Degeneration: 0.450
+2025-08-01 20:14:58,621 - INFO -   Cataract: 0.747
+2025-08-01 20:14:58,622 - INFO -   Diabetes: 0.470
+2025-08-01 20:14:58,623 - INFO -   Glaucoma: 0.547
+2025-08-01 20:14:58,624 - INFO -   Hypertension: 0.580
+2025-08-01 20:14:58,625 - INFO -   Normal: 0.562
+2025-08-01 20:14:58,627 - INFO -   Other_diseases: 0.080
+2025-08-01 20:14:58,628 - INFO -   Pathological_Myopia: 0.797
+2025-08-01 20:26:38,860 - INFO - Epoch 27/50 - Train Loss: 1.4787, Train Acc: 52.73%, Val Loss: 1.4816, Val Acc: 52.93%, LR: 1.42e-06, Time: 700.02s
+2025-08-01 20:26:38,862 - INFO -   Age_related_Macular_Degeneration: 0.440
+2025-08-01 20:26:38,863 - INFO -   Cataract: 0.757
+2025-08-01 20:26:38,865 - INFO -   Diabetes: 0.494
+2025-08-01 20:26:38,866 - INFO -   Glaucoma: 0.547
+2025-08-01 20:26:38,867 - INFO -   Hypertension: 0.590
+2025-08-01 20:26:38,869 - INFO -   Normal: 0.556
+2025-08-01 20:26:38,870 - INFO -   Other_diseases: 0.057
+2025-08-01 20:26:38,871 - INFO -   Pathological_Myopia: 0.797
+2025-08-01 20:39:20,414 - INFO - Epoch 28/50 - Train Loss: 1.4786, Train Acc: 52.58%, Val Loss: 1.4791, Val Acc: 53.22%, LR: 1.34e-06, Time: 761.54s
+2025-08-01 20:39:20,417 - INFO -   Age_related_Macular_Degeneration: 0.463
+2025-08-01 20:39:20,418 - INFO -   Cataract: 0.753
+2025-08-01 20:39:20,420 - INFO -   Diabetes: 0.488
+2025-08-01 20:39:20,421 - INFO -   Glaucoma: 0.550
+2025-08-01 20:39:20,423 - INFO -   Hypertension: 0.583
+2025-08-01 20:39:20,424 - INFO -   Normal: 0.568
+2025-08-01 20:39:20,425 - INFO -   Other_diseases: 0.050
+2025-08-01 20:39:20,427 - INFO -   Pathological_Myopia: 0.803
+2025-08-01 20:39:21,500 - INFO - New best model saved with validation accuracy: 53.22%
