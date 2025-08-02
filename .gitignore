@@ -23,4 +23,14 @@ Thumbs.db
 data/raw_data
 
 #preprocessed data files
-data/preprocess_data
+data/preprocess_datadata/raw_data/
+data/preprocess_data/
+model/fine_tune_model/
+model/raw_model/
+*.h5
+*.hdf5
+*.pkl
+*.pth
+*.bin
+*.onnx
+*.safetensors
